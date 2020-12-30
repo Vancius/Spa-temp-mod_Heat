@@ -1,3 +1,5 @@
+#This code is based on the explicit discretization of the heat conduction equation. It is valid only when the time-step is much smaller than the unit space step. Need to
+# be modified using the Crank-Nocholson method. (page 425 in my computational physics book)
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
